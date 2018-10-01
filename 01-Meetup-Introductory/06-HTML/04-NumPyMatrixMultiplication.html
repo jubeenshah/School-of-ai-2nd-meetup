@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1>NumPy Matrix Multiplication</h1>
+
+<p>You&#8217;ve heard a lot about matrix multiplication in the last few videos – now you&#8217;ll get to see how to do it with NumPy. However, it&#8217;s important to know that NumPy supports several types of matrix multiplication.</p>
+
+<h3>Element-wise Multiplication</h3>
+
+<p>You saw some element-wise multiplication already. You accomplish that with the <code>multiply</code> function or the <code>*</code> operator. Just to revisit, it would look like this:</p>
+
+<pre><code>m = np.array([[1,2,3],[4,5,6]])
+m
+# displays the following result:
+# array([[1, 2, 3],
+#        [4, 5, 6]])
+
+n = m * 0.25
+n
+# displays the following result:
+# array([[ 0.25,  0.5 ,  0.75],
+#        [ 1.  ,  1.25,  1.5 ]])
+
+m * n
+# displays the following result:
+# array([[ 0.25,  1.  ,  2.25],
+#        [ 4.  ,  6.25,  9.  ]])
+
+np.multiply(m, n)   # equivalent to m * n
+# displays the following result:
+# array([[ 0.25,  1.  ,  2.25],
+#        [ 4.  ,  6.25,  9.  ]])
+</code></pre>
+
+<h3>Matrix Product</h3>
+
+<p>To find the matrix product, you use NumPy&#8217;s <code>matmul</code> function.</p>
+
+<p>If you have compatible shapes, then it&#8217;s as simple as this:</p>
+
+<pre><code>a = np.array([[1,2,3,4],[5,6,7,8]])
+a
+# displays the following result:
+# array([[1, 2, 3, 4],
+#        [5, 6, 7, 8]])
+a.shape
+# displays the following result:
+# (2, 4)
+
+b = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+b
+# displays the following result:
+# array([[ 1,  2,  3],
+#        [ 4,  5,  6],
+#        [ 7,  8,  9],
+#        [10, 11, 12]])
+b.shape
+# displays the following result:
+# (4, 3)
+
+c = np.matmul(a, b)
+c
+# displays the following result:
+# array([[ 70,  80,  90],
+#        [158, 184, 210]])
+c.shape
+# displays the following result:
+# (2, 3)
+</code></pre>
+
+<p>If your matrices have incompatible shapes, you&#8217;ll get an error, like the following:</p>
+
+<pre><code>np.matmul(b, a)
+# displays the following error:
+# ValueError: shapes (4,3) and (2,4) not aligned: 3 (dim 1) != 2 (dim 0)
+</code></pre>
+
+<h3>NumPy&#8217;s <code>dot</code> function</h3>
+
+<p>You may sometimes see NumPy&#8217;s <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html"><code>dot</code></a> function in places where you would expect a <code>matmul</code>. It turns out that the results of <code>dot</code> and <code>matmul</code> are the same <em>if the matrices are two dimensional</em>.</p>
+
+<p>So these two results are equivalent:</p>
+
+<pre><code>a = np.array([[1,2],[3,4]])
+a
+# displays the following result:
+# array([[1, 2],
+#        [3, 4]])
+
+np.dot(a,a)
+# displays the following result:
+# array([[ 7, 10],
+#        [15, 22]])
+
+a.dot(a)  # you can call `dot` directly on the `ndarray`
+# displays the following result:
+# array([[ 7, 10],
+#        [15, 22]])
+
+np.matmul(a,a)
+# array([[ 7, 10],
+#        [15, 22]])
+</code></pre>
+
+<p>While these functions return the same results for two dimensional data, you should be careful about which you choose when working with other data shapes. You can read more about the differences, and find links to other NumPy functions, in the <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.matmul.html#numpy.matmul"><code>matmul</code></a> and <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html"><code>dot</code></a> documentation.</p>
+
+</body>
+</html>
