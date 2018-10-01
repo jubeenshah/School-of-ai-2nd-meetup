@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1>Introducing NumPy</h1>
+
+<p>Python is convenient, but it can also be slow. However, it does allow you to access libraries that execute faster code written in languages like C. NumPy is one such library: it provides fast alternatives to math operations in Python and is designed to work efficiently with groups of numbers - like matrices.</p>
+
+<p>NumPy is a large library and we are only going to scratch the surface of it here. If you plan on doing much math with Python, you should definitely spend some time exploring its <a href="https://docs.scipy.org/doc/numpy/reference/">documentation</a> to learn more.</p>
+
+<h3>Importing NumPy</h3>
+
+<p>When importing the NumPy library, the convention you&#8217;ll see used most often – including here – is to name it <code>np</code>, like so:</p>
+
+<pre><code>import numpy as np 
+</code></pre>
+
+<p>Now you can use the library by prefixing the names of functions and types with <code>np.</code>, which you&#8217;ll see in the following examples.</p>
+
+<h3>Data Types and Shapes</h3>
+
+<p>The most common way to work with numbers in NumPy is through <a href="https://docs.scipy.org/doc/numpy/reference/arrays.html"><code>ndarray</code></a> objects. They are similar to Python lists, but can have any number of dimensions. Also, <code>ndarray</code> supports fast math operations, which is just what we want.</p>
+
+<p>Since it can store any number of dimensions, you can use <code>ndarray</code>s to represent any of the data types we covered before: scalars, vectors, matrices, or tensors.</p>
+
+<h3>Scalars</h3>
+
+<p><a href="https://docs.scipy.org/doc/numpy/reference/arrays.scalars.html">Scalars in NumPy</a> are a bit more involved than in Python. Instead of Python’s basic types like <code>int</code>, <code>float</code>, etc., NumPy lets you specify signed and unsigned types, as well as different sizes. So instead of Python’s <code>int</code>, you have access to types like <code>uint8</code>, <code>int8</code>, <code>uint16</code>, <code>int16</code>, and so on.</p>
+
+<p>These types are important because every object you make (vectors, matrices, tensors) eventually stores scalars. And when you create a NumPy array, you can specify the type - but <strong>every item in the array must have the same type</strong>. In this regard, NumPy arrays are more like C arrays than Python lists.</p>
+
+<p>If you want to create a NumPy array that holds a scalar, you do so by passing the value to NumPy&#8217;s <code>array</code> function, like so:</p>
+
+<pre><code>s = np.array(5)
+</code></pre>
+
+<p>You can still perform math between <code>ndarray</code>s, NumPy scalars, and normal Python scalars, though, as you&#8217;ll see in the element-wise math lesson.</p>
+
+<p>You can see the shape of your arrays by checking their <code>shape</code> attribute. So if you executed this code:</p>
+
+<pre><code>s.shape
+</code></pre>
+
+<p>it would print out the result, an empty pair of parenthesis, <code>()</code>. This indicates that it has zero dimensions.</p>
+
+<p>Even though scalars are inside arrays, you still use them like a normal scalar. So you could type:</p>
+
+<pre><code>x = s + 3
+</code></pre>
+
+<p>and <code>x</code> would now equal <code>8</code>. If you were to check the type of <code>x</code>, you&#8217;d find it is probably <code>numpy.int64</code>, because its working with NumPy types, not Python types.</p>
+
+<p>By the way, even scalar types support most of the array functions. so you can call <code>x.shape</code> and it would return <code>()</code> because it has zero dimensions, even though it is not an array. If you tried that with a normal Python scalar, you&#8217;d get an error.</p>
+
+<h3>Vectors</h3>
+
+<p>To create a vector, you&#8217;d pass a Python list to the <code>array</code> function, like this:</p>
+
+<pre><code>v = np.array([1,2,3])
+</code></pre>
+
+<p>If you check a vector&#8217;s <code>shape</code> attribute, it will return a single number representing the vector&#8217;s one-dimensional length. In the above example, <code>v.shape</code> would return <code>(3,)</code></p>
+
+<p>Now that there is a number, you can see that the shape is a tuple with the sizes of each of the <code>ndarray</code>&#8217;s dimensions. For scalars it was just an empty tuple, but vectors have one dimension, so the tuple includes a number and a comma. (Python doesn’t understand <code>(3)</code> as a tuple with one item, so it requires the comma. You can read more about tuples <a href="https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences">here</a>)</p>
+
+<p>You can access an element within the vector using indices, like this:</p>
+
+<pre><code>x = v[1]
+</code></pre>
+
+<p>Now <code>x</code> equals <code>2</code>.</p>
+
+<p>NumPy also supports advanced indexing techniques. For example, to access the items from the second element onward, you would say:</p>
+
+<pre><code>v[1:]
+</code></pre>
+
+<p>and it would return an array of <code>[2, 3]</code>. NumPy slicing is quite powerful, allowing you to access any combination of items in an <code>ndarray</code>. But it can also be a bit complicated, so you should read up on it <a href="https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html">in the documentation</a>.</p>
+
+<h3>Matrices</h3>
+
+<p>You create matrices using NumPy&#8217;s <code>array</code> function, just you did for vectors. However, instead of just passing in a list, you need to supply a list of lists, where each list represents a row. So to create a 3x3 matrix containing the numbers one through nine, you could do this:</p>
+
+<pre><code>m = np.array([[1,2,3], [4,5,6], [7,8,9]])
+</code></pre>
+
+<p>Checking its <code>shape</code> attribute would return the tuple <code>(3, 3)</code> to indicate it has two dimensions, each length 3.</p>
+
+<p>You can access elements of matrices just like vectors, but using additional index values. So to find the number <code>6</code> in the above matrix, you&#8217;d access <code>m[1][2]</code>.</p>
+
+<h3>Tensors</h3>
+
+<p>Tensors are just like vectors and matrices, but they can have more dimensions. For example, to create a 3x3x2x1 tensor, you could do the following:</p>
+
+<pre><code>t = np.array([[[[1],[2]],[[3],[4]],[[5],[6]]],[[[7],[8]],\
+    [[9],[10]],[[11],[12]]],[[[13],[14]],[[15],[16]],[[17],[17]]]])
+</code></pre>
+
+<p>And <code>t.shape</code> would return <code>(3, 3, 2, 1)</code>.</p>
+
+<p>You can access items just like with matrices, but with more indices. So <code>t[2][1][1][0]</code> will return <code>16</code>.</p>
+
+<h3>Changing Shapes</h3>
+
+<p>Sometimes you&#8217;ll need to change the shape of your data without actually changing its contents. For example, you may have a vector, which is one-dimensional, but need a matrix, which is two-dimensional. There are two ways you can do that.</p>
+
+<p>Let&#8217;s say you have the following vector:</p>
+
+<pre><code>v = np.array([1,2,3,4])
+</code></pre>
+
+<p>Calling <code>v.shape</code> would return <code>(4,)</code>. But what if you want a 1x4 matrix? You can accomplish that with the <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html"><code>reshape</code></a> function, like so:</p>
+
+<pre><code>x = v.reshape(1,4)
+</code></pre>
+
+<p>Calling <code>x.shape</code> would return <code>(1,4)</code>. If you wanted a 4x1 matrix, you could do this:</p>
+
+<pre><code>x = v.reshape(4,1)
+</code></pre>
+
+<p>The <code>reshape</code> function works for more than just adding a dimension of size 1. Check out its <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html">documentation</a> for more examples.</p>
+
+<p>One more thing about reshaping NumPy arrays: if you see code from experienced NumPy users, you will often see them use a special slicing syntax instead of calling <code>reshape</code>. Using this syntax, the previous two examples would look like this:</p>
+
+<pre><code>x = v[None, :]
+</code></pre>
+
+<p>or</p>
+
+<pre><code>x = v[:, None]
+</code></pre>
+
+<p>Those lines create a slice that looks at all of the items of <code>v</code> but asks NumPy to add a new dimension of size 1 for the associated axis. It may look strange to you now, but it&#8217;s a common technique so it&#8217;s good to be aware of it.</p>
+
+</body>
+</html>
