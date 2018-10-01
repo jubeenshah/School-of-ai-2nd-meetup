@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1>Element-wise operations</h1>
+
+<h3>The Python way</h3>
+
+<p>Suppose you had a list of numbers, and you wanted to add <code>5</code> to every item in the list. Without NumPy, you might do something like this:</p>
+
+<pre><code>values = [1,2,3,4,5]
+for i in range(len(values)):
+    values[i] += 5
+
+# now values holds [6,7,8,9,10]
+</code></pre>
+
+<p>That makes sense, but it&#8217;s a lot of code to write and it runs slowly because it&#8217;s pure Python.</p>
+
+<p><strong>Note:</strong> Just in case you aren&#8217;t used to using operators like <code>+=</code>, that just means &#8220;add these two items and then store the result in the left item.&#8221; It is a more succinct way of writing <code>values[i] = values[i] + 5</code>. The code you see in these examples makes use of such operators whenever possible.</p>
+
+<h3>The NumPy way</h3>
+
+<p>In NumPy, we could do the following:</p>
+
+<pre><code>values = [1,2,3,4,5]
+values = np.array(values) + 5
+
+# now values is an ndarray that holds [6,7,8,9,10]
+</code></pre>
+
+<p>Creating that array may seem odd, but normally you&#8217;ll be storing your data in <code>ndarray</code>s anyway. So if you already had an <code>ndarray</code> named <code>values</code>, you could have just done:</p>
+
+<pre><code>values += 5
+</code></pre>
+
+<p>We should point out, NumPy actually has functions for things like adding, multiplying, etc. But it also supports using the standard math operators. So the following two lines are equivalent:</p>
+
+<pre><code>x = np.multiply(some_array, 5)
+x = some_array * 5
+</code></pre>
+
+<p>We will usually use the operators instead of the functions because they are more convenient to type and easier to read, but it&#8217;s really just personal preference.</p>
+
+<p>One more example of operating with scalars and <code>ndarrays</code>. Let&#8217;s say you have a matrix <code>m</code> and you want to reuse it, but first you need to set all its values to zero. Easy, just multiply by zero and assign the result back to the matrix, like this:</p>
+
+<pre><code>m *= 0
+
+# now every element in m is zero, no matter how many dimensions it has
+</code></pre>
+
+<h3>Element-wise Matrix Operations</h3>
+
+<p>The same functions and operators that work with scalars and matrices also work with other dimensions. You just need to make sure that the items you perform the operation on have compatible shapes.</p>
+
+<p>Let&#8217;s say you want to get the squared values of a matrix. That&#8217;s simply <code>x = m * m</code> (or if you want to assign the value back to <code>m</code>, it&#8217;s just <code>m *= m</code></p>
+
+<p>This works because it&#8217;s an element-wise multiplication between two identically-shaped matrices. (In this case, they are shaped the same because they are actually the same object.)</p>
+
+<p>Here&#8217;s the example from the video:</p>
+
+<pre><code>a = np.array([[1,3],[5,7]])
+a
+# displays the following result:
+# array([[1, 3],
+#        [5, 7]])
+
+b = np.array([[2,4],[6,8]])
+b
+# displays the following result:
+# array([[2, 4],
+#        [6, 8]])
+
+a + b
+# displays the following result
+#      array([[ 3,  7],
+#             [11, 15]])
+</code></pre>
+
+<p>And if you try working with incompatible shapes, like the other example from the video, you&#8217;d get an error:</p>
+
+<pre><code>a = np.array([[1,3],[5,7]])
+a
+# displays the following result:
+# array([[1, 3],
+#        [5, 7]])
+c = np.array([[2,3,6],[4,5,9],[1,8,7]])
+c
+# displays the following result:
+# array([[2, 3, 6],
+#        [4, 5, 9],
+#        [1, 8, 7]])
+
+a.shape
+# displays the following result:
+#  (2, 2)
+
+c.shape
+# displays the following result:
+#  (3, 3)
+
+a + c
+# displays the following error:
+# ValueError: operands could not be broadcast together with shapes (2,2) (3,3) 
+</code></pre>
+
+<p>You&#8217;ll learn more about what that &#8220;could not be broadcast together&#8221; means in a later lesson, but for now, just notice that the two shapes are different so we can&#8217;t perform the element-wise operation.</p>
+
+</body>
+</html>
