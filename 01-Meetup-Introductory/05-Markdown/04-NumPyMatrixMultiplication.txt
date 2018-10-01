@@ -1,7 +1,7 @@
 NumPy Matrix Multiplication
 ===========================
 
-You've heard a lot about matrix multiplication in the last few videos – now you'll get to see how to do it with NumPy. However, it's important to know that NumPy supports several types of matrix multiplication.
+You've heard a lot about matrix multiplication in the last few sections – now you'll get to see how to do it with NumPy. However, it's important to know that NumPy supports several types of matrix multiplication.
 
 ### Element-wise Multiplication
 
