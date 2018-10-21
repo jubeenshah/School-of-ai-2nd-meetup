@@ -9,10 +9,10 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 
 ### Read the following documents  for concise information to what you need to know
 * [Intro to NumPy](/2ndMeetup-Resources/05-Markdown/01-IntroductionToNumpy.md)
-* [Element Wise operation](/2ndMeetup-Resources/05-Markdown/02-ElementWiseOperation.md)
-* [Matrix Multiplcation with NumPy](/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md)
-* [Important reminders about Matrix Multiplcation](/2ndMeetup-Resources/05-Markdown/04-NumPyMatrixMultiplication.md) 
-* [Transpose in Matrix using NumPy](/2ndMeetup-Resources/05-Markdown/05-Transpose.md)
+* [Element Wise operation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/02-ElementWiseOperation.md)
+* [Matrix Multiplcation with NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md)
+* [Important reminders about Matrix Multiplcation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md) 
+* [Transpose in Matrix using NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/05-Transpose.md)
 
 
 
