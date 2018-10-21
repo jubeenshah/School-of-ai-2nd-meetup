@@ -7,7 +7,8 @@ NumPy is the fundamental package for scientific computing in Python. It is a Pyt
 
 Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html)
 
-### Read the following documents  for concise information to what you need to know
+### Read the following documents  for concise information to what you need to know about NumPy
+
 * [Intro to NumPy](/2ndMeetup-Resources/05-Markdown/01-IntroductionToNumpy.md)
 * [Element Wise operation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/02-ElementWiseOperation.md)
 * [Matrix Multiplcation with NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md)
