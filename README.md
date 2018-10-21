@@ -13,7 +13,7 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 * [Element Wise operation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/02-ElementWiseOperation.md)
 * [Matrix Multiplcation with NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md)
 * [Important reminders about Matrix Multiplcation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md) 
-* [Transpose in Matrix using NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/05-Transpose.md)
+* [Transpose in Matrix using NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/05-Transpose.md)q
 
 
 
