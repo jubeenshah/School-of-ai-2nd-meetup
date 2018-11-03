@@ -11,7 +11,7 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 
 * [Intro to NumPy](/2ndMeetup-Resources/05-Markdown/01-IntroductionToNumpy.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/01-IntroductionToNumpy.pdf))
 * [Element Wise operation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/02-ElementWiseOperation.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/02-ElementWiseOperation.pdf))
-* [Matrix Multiplcation with NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/04-NumPyMatrixMultiplication.pdf))
+* [Matrix Multiplcation with NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/04-NumPyMatrixMultiplication.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/04-NumPyMatrixMultiplication.pdf))
 * [Important reminders about Matrix Multiplcation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/03-MatrixMultiplication.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/03-MatrixMultiplication.pdf))
 * [Transpose in Matrix using NumPy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/05-Markdown/05-Transpose.md) ([PDF](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/05-Transpose.pdf))
 
@@ -21,8 +21,7 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 * [Basics of Numpy Array](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/06-The_Basics_Of_NumPy_Arrays.pdf) ([Jupyter Notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/The_Basics_Of_NumPy_Arrays.ipynb))
 * [NumPy Quiz](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/07-Quizes/01-NumpyQuiz.ipynb)
 * [Solution](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/08-Solution/01-NumpyQuiz-Sol.ipynb)
-* Free NumPy Course
-	* [Udemy - 3.5 hours](https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/)
+* [Free Udemy NumPy Course]((https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/))
 
 ## What is [pandas](http://pandas.pydata.org)
 
