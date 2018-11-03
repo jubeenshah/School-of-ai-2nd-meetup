@@ -1,6 +1,14 @@
-# School Of AI - Tools in the world of AI
+# School Of AI - Tools in the world of AI (2nd Meetup)
 
 Hello world, Here is the comprehensive list of all the inforamtion we discussed today in our meetup.
+
+## Presenters
+* [Jubeen Shah](www.jubeenshah.com)([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
+* [Brandon Johnson](https://www.koanologies.com)([LinkedIn](https://www.linkedin.com/in/bjohn5on/))
+
+## Presentation Links
+* [Will Be updated]()
+
 
 ## What is [NumPy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html)
 NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
