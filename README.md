@@ -48,6 +48,7 @@ The following set of notebooks should help you learn pandas in detail. [Source](
 * [Chapter 6 - Cleaning up messy data](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
 * [Chapter 7 - How to deal with timestamps](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
 * [Chapter 8 - Loading data from SQL databases](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
+* [Free Udemy course](https://www.udemy.com/learn-data-analysis-using-pandas-and-python/)
 
 The goal of the following cookbook is to give you some concrete examples forgetting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/) are really comprehensive. However, I've often had people tell me that they have some trouble getting started, so these are
 examples with real-world data, and all the bugs and weirdness
@@ -71,6 +72,39 @@ Or go to the console and select, open with terminal and run the following comman
 ```
 conda install ipython pandas numpy tornado pyzmq jinja2 matplotlib python=2.7 notebook jupyter jupyterlab_launcher jupyterlab
 ```
+
+## What is [matplotlib](https://matplotlib.org)
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
+
+Matplotlib tries to make easy things easy and hard things possible. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc., with just a few lines of code. 
+
+The following set of notebooks should help with learning matplotlib in more detail.
+
+
+### Other resources
+
+* Need help with the installation? Please visit the [installation documentation](https://matplotlib.org/users/installing.html)
+* [User Guide](https://matplotlib.org/users/index.html)
+* Books, Chapters and Articles
+	*   [Mastering matplotlib](https://www.packtpub.com/big-data-and-business-intelligence/mastering-matplotlib) by Duncan M. McGreggor
+	* [Interactive Applications Using Matplotlib](https://www.packtpub.com/application-development/interactive-applications-using-matplotlib) by Benjamin Root
+	* [Matplotlib for Python Developers](https://www.packtpub.com/application-development/matplotlib-python-developers) by Sandro Tosi
+	* [Matplotlib chapter](http://www.aosabook.org/en/matplotlib.html) by John Hunter and Michael Droettboom in The Architecture of Open Source Applications
+	* [Graphics with Matplotlib](http://kestrel.nmt.edu/~raymond/software/python_notes/paper004.html) by David J. Raymond
+	* [Ten Simple Rules for Better Figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) by Nicolas P. Rougier, Michael Droettboom and Philip E. Bourne
+	* [Learning Scientific Programming with Python chapter 7](http://scipython.com/book/chapter-7-matplotlib/) by Christian Hill
+* [Videos](#videos "Permalink to this headline")
+	*   [Plotting with matplotlib](https://www.youtube.com/watch?v=P7SVi0YTIuE) by Mike Müller
+	* [Introduction to NumPy and Matplotlib](https://www.youtube.com/watch?v=3Fp1zn5ao2M&feature=plcp) by Eric Jones
+	* [Anatomy of Matplotlib](https://conference.scipy.org/scipy2013/tutorial_detail.php?id=103) by Benjamin Root
+	* [Data Visualization Basics with Python (O'Reilly)](http://shop.oreilly.com/product/0636920046592.do) by Randal S. Olson
+* [Tutorials](#tutorials "Permalink to this headline")
+	* [Matplotlib tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/) by Nicolas P. Rougier	
+	* [Anatomy of Matplotlib - IPython Notebooks](https://github.com/WeatherGod/AnatomyOfMatplotlib) by Benjamin Root
+
+
+
 
 
 
