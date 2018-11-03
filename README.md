@@ -21,7 +21,7 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 * [Basics of Numpy Array](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/01-PDFs/06-The_Basics_Of_NumPy_Arrays.pdf) ([Jupyter Notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/The_Basics_Of_NumPy_Arrays.ipynb))
 * [NumPy Quiz](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/07-Quizes/01-NumpyQuiz.ipynb)
 * [Solution](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/08-Solution/01-NumpyQuiz-Sol.ipynb)
-* [Free Udemy NumPy Course]((https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/))
+* [Free Udemy NumPy Course](https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/)
 
 ## What is [pandas](http://pandas.pydata.org)
 
