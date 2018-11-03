@@ -1,4 +1,4 @@
-# School-of-ai-2nd-meetup
+# School Of AI - Tools in the world of AI
 
 Hello world, Here is the comprehensive list of all the inforamtion we discussed today in our meetup.
 
@@ -23,7 +23,7 @@ Read more about NumPy in the [documentation](https://docs.scipy.org/doc/numpy-1.
 * [Solution](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/08-Solution/01-NumpyQuiz-Sol.ipynb)
 * [Free Udemy NumPy Course](https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/)
 
-## What is [pandas](http://pandas.pydata.org)
+## What is [Pandas](http://pandas.pydata.org)
 
 Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 
