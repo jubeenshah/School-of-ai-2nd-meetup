@@ -3,8 +3,8 @@
 Hello world, Here is the comprehensive list of all the inforamtion we discussed today in our meetup.
 
 ## Presenters
-* [Jubeen Shah](www.jubeenshah.com)([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
-* [Brandon Johnson](https://www.koanologies.com)([LinkedIn](https://www.linkedin.com/in/bjohn5on/))
+* Jubeen Shah ([Website](www.jubeenshah.com))([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
+* Brandon Johnson ([Website](https://www.koanologies.com))([LinkedIn](https://www.linkedin.com/in/bjohn5on/))
 
 ## Presentation Links
 * [Will Be updated]()
