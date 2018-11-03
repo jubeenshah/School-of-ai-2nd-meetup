@@ -80,14 +80,19 @@ Matplotlib is a Python 2D plotting library which produces publication quality fi
 Matplotlib tries to make easy things easy and hard things possible. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc., with just a few lines of code. 
 
 The following set of notebooks should help with learning matplotlib in more detail.
-
+* [Chapter 1 - Subplots and Layouts](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part1-Figures_Subplots_and_layouts.ipynb)
+* [Chapter 2 - Plotting Methods : Overview](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part2-Plotting_Methods_Overview.ipynb)
+* [Chapter 3 - Speaking MPL](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part3-HowToSpeakMPL.ipynb)
+* [Chapter 4 - Limits, Legends, and Layouts](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part4-Limits_Legends_and_Layouts.ipynb)
+* [Chapter 5 - Artists](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part5-Artists.ipynb)
+* [Chapter 6 - MPL Tool Kits](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/MatplotLib/AnatomyOfMatplotlib-master/AnatomyOfMatplotlib-Part6-mpl_toolkits.ipynb)
 
 ### Other resources
 
 * Need help with the installation? Please visit the [installation documentation](https://matplotlib.org/users/installing.html)
 * [User Guide](https://matplotlib.org/users/index.html)
 * Books, Chapters and Articles
-	*   [Mastering matplotlib](https://www.packtpub.com/big-data-and-business-intelligence/mastering-matplotlib) by Duncan M. McGreggor
+	*  [Mastering matplotlib](https://www.packtpub.com/big-data-and-business-intelligence/mastering-matplotlib) by Duncan M. McGreggor
 	* [Interactive Applications Using Matplotlib](https://www.packtpub.com/application-development/interactive-applications-using-matplotlib) by Benjamin Root
 	* [Matplotlib for Python Developers](https://www.packtpub.com/application-development/matplotlib-python-developers) by Sandro Tosi
 	* [Matplotlib chapter](http://www.aosabook.org/en/matplotlib.html) by John Hunter and Michael Droettboom in The Architecture of Open Source Applications
@@ -95,7 +100,7 @@ The following set of notebooks should help with learning matplotlib in more deta
 	* [Ten Simple Rules for Better Figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) by Nicolas P. Rougier, Michael Droettboom and Philip E. Bourne
 	* [Learning Scientific Programming with Python chapter 7](http://scipython.com/book/chapter-7-matplotlib/) by Christian Hill
 * [Videos](#videos "Permalink to this headline")
-	*   [Plotting with matplotlib](https://www.youtube.com/watch?v=P7SVi0YTIuE) by Mike Müller
+	*  [Plotting with matplotlib](https://www.youtube.com/watch?v=P7SVi0YTIuE) by Mike Müller
 	* [Introduction to NumPy and Matplotlib](https://www.youtube.com/watch?v=3Fp1zn5ao2M&feature=plcp) by Eric Jones
 	* [Anatomy of Matplotlib](https://conference.scipy.org/scipy2013/tutorial_detail.php?id=103) by Benjamin Root
 	* [Data Visualization Basics with Python (O'Reilly)](http://shop.oreilly.com/product/0636920046592.do) by Randal S. Olson
