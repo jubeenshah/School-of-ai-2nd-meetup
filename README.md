@@ -108,8 +108,21 @@ The following set of notebooks should help with learning matplotlib in more deta
 	* [Matplotlib tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/) by Nicolas P. Rougier	
 	* [Anatomy of Matplotlib - IPython Notebooks](https://github.com/WeatherGod/AnatomyOfMatplotlib) by Benjamin Root
 
+## What is [TensorFlow](https://www.tensorflow.org)
 
+* Need help with the installation? Please visit the [installation documentation](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)
+	* If you to the environements tab in the anaconda application, and then select the libraries that are currently `Not Installed` you can add the TensorFlow library to your environment easily.
+* Basic Classification Notebook using the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28 by 28 pixels), as seen here:
 
+<table>
+  <tr><td>
+    <img src="https://tensorflow.org/images/fashion-mnist-sprite.png"
+         alt="Fashion MNIST sprite"  width="600">
+  </td></tr>
+  <tr><td align="center">
+    <b>Figure 1.</b> <a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST samples</a> (by Zalando, MIT License).<br/>&nbsp;
+  </td></tr>
+</table>
 
 
 
