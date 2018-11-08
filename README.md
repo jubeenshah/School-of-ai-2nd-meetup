@@ -44,10 +44,10 @@ The following set of notebooks should help you learn pandas in detail. [Source](
 * [Chapter 2 - Selecting data & finding the most common complaint type](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%202%20-%20Selecting%20data%20%26%20finding%20the%20most%20common%20complaint%20type.ipynb)
 * [Chapter 3 - Which borough has the most noise complaints (or, more selecting data)](http://tiny.cc/k6fp0y)
 * [Chapter 4 - Find out on which weekday people bike the most with groupby and aggregate](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%204%20-%20Find%20out%20on%20which%20weekday%20people%20bike%20the%20most%20with%20groupby%20and%20aggregate.ipynb)
-* [Chapter 5 - String Operations- Which month was the snowiest](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%206%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
-* [Chapter 6 - Cleaning up messy data](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
-* [Chapter 7 - How to deal with timestamps](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
-* [Chapter 8 - Loading data from SQL databases](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
+* [Chapter 5 - String Operations- Which month was the snowiest](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%205%20-%20String%20Operations-%20Which%20month%20was%20the%20snowiest.ipynb)
+* [Chapter 6 - Cleaning up messy data](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%206%20-%20Cleaning%20up%20messy%20data.ipynb)
+* [Chapter 7 - How to deal with timestamps](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%207%20-%20How%20to%20deal%20with%20timestamps.ipynb)
+* [Chapter 8 - Loading data from SQL databases](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/Pandas/Notebooks/Chapter%208%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
 * [Free Udemy course](https://www.udemy.com/learn-data-analysis-using-pandas-and-python/)
 
 The goal of the following cookbook is to give you some concrete examples forgetting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/) are really comprehensive. However, I've often had people tell me that they have some trouble getting started, so these are
