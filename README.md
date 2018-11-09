@@ -112,8 +112,14 @@ The following set of notebooks should help with learning matplotlib in more deta
 
 * Need help with the installation? Please visit the [installation documentation](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)
 	* If you to the environements tab in the anaconda application, and then select the libraries that are currently `Not Installed` you can add the TensorFlow library to your environment easily.
-* Basic Classification Notebook using the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28 by 28 pixels), as seen here:
+	 
+	
+### [Example Notebooks](https://github.com/jubeenshah/School-of-ai-2nd-meetup/tree/master/2ndMeetup-Resources/Demo/TensorFlow)
 
+* The first 3-4 notebooks would be aimed at giving you a taste of TensorFlow and how it can be used in real world application.
+* The [source](https://www.tensorflow.org/tutorials/) of the following notebooks gives a brief overview of the tensorflow libraries.
+	* Please note that you do not have to know TensorFlow at all. Moreover, you're not expected to understand anything from the notebooks. It is there to just give you tase as to what can be done.
+* The [first notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) is a basic Classification Notebook using the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28 by 28 pixels), as seen here:
 <table>
   <tr><td>
     <img src="https://tensorflow.org/images/fashion-mnist-sprite.png"
@@ -122,8 +128,35 @@ The following set of notebooks should help with learning matplotlib in more deta
   <tr><td align="center">
     <b>Figure 1.</b> <a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST samples</a> (by Zalando, MIT License).<br/>&nbsp;
   </td></tr>
-</table>
+</table>	
+	* [This guide](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go.
+* The [second notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_text_classification.ipynb) is a text classification example that makes use of the reviews from [IMBD dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/imdb) as positive or negative. 
+	* This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), a high-level API to build and train models in TensorFlow. For a more advanced text classification tutorial using tf.keras, see the [MLCC Text Classification Guide](https://developers.google.com/machine-learning/guides/text-classification/).
+* The [third notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_regression.ipynb) is regressions notebook for the [boston housing prices](https://www.cs.toronto.edu/%7Edelve/data/boston/bostonDetail.html) dataset. 
+	* This notebook builds a model to predict the median price of homes in a Boston suburb during the mid-1970s. To do this, we'll provide the model with some data points about the suburb, such as the crime rate and the local property tax rate.
+* The [fourth notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/overfit_and_underfit.ipynb) is focussed towards overfitting and underfitting data.
+	* In this notebook, we'll explore two common regularization techniques—weight regularization and dropout—and use them to improve our IMDB movie review classification notebook.
 
+#### Summary for TensorFlow
+Just listing down the notebooks for easy reference.
+* [Basic Classification Problem](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb)
+* [Basic Text classification problem](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_text_classification.ipynb)
+* [Basic Regression problem](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_regression.ipynb)
+* [Overfitting and Underfitting](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/overfit_and_underfit.ipynb)
+
+### [Learn TensorFlow Basics](https://github.com/jubeenshah/School-of-ai-2nd-meetup/tree/master/2ndMeetup-Resources/Demo/TensorFlow/Practice)
+
+I've set up a series of notebook to get guys familiar with the world of TensorFlow from the very basics. In these notebooks you'll also find some simple questions based on what was done either in the previous notebooks or in the current notebook you're working.
+
+* [Basics](https://github.com/jubeenshah/School-of-ai-2nd-meetup/tree/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics)
+	* [Hello World](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/01_HelloWorld.ipynb) notebook will help you set up your environment if you're having problems with setting up the tensorflow environment, or haven't done it yet.
+	* [Understanding tensors](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/02_UnderstandingTensorWorld.ipynb) notebook will help you understand the basics of the tensors and setting up `sessions` for running your code.
+	* [Working with Inputs](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/03_WorkingWithInputs.ipynb) notebook will help you gain understanding about how you can give inputs to the session variable you define in tensorflow usning `feed_dict`
+	* [TensorFlow math](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/04_TensorFlowMath.ipynb) notebook will help you gain familiarity with performing math operations using TensorFlow. Be advised, this is a bit different than your usual programming practices.
+	* [Declaring Tensors](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/05_DeclaringTensors.ipynb) notebook is aimed towards helping you understand different types of tensors.
+	* [Placeholders and Variables](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/06_PlaceholdersAndVariables.ipynb) notebook is aimed towards making your foundatations strong by helping you understand placeholders and variabels for your data.
+* [Intro to TensorFlow](http://localhost:8888/tree/Desktop/Development/School%20of%20Ai/School-of-ai-2nd-meetup/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow)
+	* 
 
 
 
