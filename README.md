@@ -163,11 +163,10 @@ I've set up a series of notebook to get guys familiar with the world of TensorFl
 	* [Cross Entropy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/03_CrossEntropy.ipynb)
 	* [MiniBatching](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/04_MiniBatching.ipynb)
 	* [MNIST in TensorFlow](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/06_WelcomeToTensorflow.ipynb)
-* 
 
 
 
-
+<a href="https://media1.tenor.com/images/b553333fe8b5d4fa276d7b2dc4f7fe23/tenor.gif?itemid=5945155">
 
 
 
