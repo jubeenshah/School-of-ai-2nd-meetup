@@ -129,6 +129,8 @@ The following set of notebooks should help with learning matplotlib in more deta
     <b>Figure 1.</b> <a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST samples</a> (by Zalando, MIT License).<br/>&nbsp;
   </td></tr>
 </table>	
+
+
 	* [This guide](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go.
 * The [second notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_text_classification.ipynb) is a text classification example that makes use of the reviews from [IMBD dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/imdb) as positive or negative. 
 	* This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), a high-level API to build and train models in TensorFlow. For a more advanced text classification tutorial using tf.keras, see the [MLCC Text Classification Guide](https://developers.google.com/machine-learning/guides/text-classification/).
