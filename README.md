@@ -1,6 +1,6 @@
 # School Of AI - Tools in the world of AI (2nd Meetup)
 
-Hello world, Here is the comprehensive list of all the inforamtion we discussed today in our meetup.
+Hello world, Here is the comprehensive list of all the information we discussed today in our meetup.
 
 ## Presenters
 * Jubeen Shah ([Website](www.jubeenshah.com))([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
