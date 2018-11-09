@@ -119,7 +119,8 @@ The following set of notebooks should help with learning matplotlib in more deta
 * The first 3-4 notebooks would be aimed at giving you a taste of TensorFlow and how it can be used in real world application.
 * The [source](https://www.tensorflow.org/tutorials/) of the following notebooks gives a brief overview of the tensorflow libraries.
 	* Please note that you do not have to know TensorFlow at all. Moreover, you're not expected to understand anything from the notebooks. It is there to just give you tase as to what can be done.
-* The [first notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) is a basic Classification Notebook using the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28 by 28 pixels), as seen here:
+* The [first notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) is a basic Classification Notebook using the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset which contains 70,000 grayscale images in 10 categories. 
+	* 	[This guide](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go. The images show individual articles of clothing at low resolution (28 by 28 pixels), as seen here:
 <table>
   <tr><td>
     <img src="https://tensorflow.org/images/fashion-mnist-sprite.png"
@@ -131,7 +132,7 @@ The following set of notebooks should help with learning matplotlib in more deta
 </table>	
 
 
-	* [This guide](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_classification.ipynb) trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go.
+
 * The [second notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_text_classification.ipynb) is a text classification example that makes use of the reviews from [IMBD dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/imdb) as positive or negative. 
 	* This notebook uses [tf.keras](https://www.tensorflow.org/guide/keras), a high-level API to build and train models in TensorFlow. For a more advanced text classification tutorial using tf.keras, see the [MLCC Text Classification Guide](https://developers.google.com/machine-learning/guides/text-classification/).
 * The [third notebook](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/basic_regression.ipynb) is regressions notebook for the [boston housing prices](https://www.cs.toronto.edu/%7Edelve/data/boston/bostonDetail.html) dataset. 
