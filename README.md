@@ -166,18 +166,7 @@ I've set up a series of notebook to get guys familiar with the world of TensorFl
 
 
 
-<a href="">
-
-<table>
-  <tr><td>
-    <img src="https://tensorflow.org/images/fashion-mnist-sprite.png"
-         alt="Fashion MNIST sprite"  width="600">
-  </td></tr>
-  <tr><td align="center">
-    <b>Figure 1.</b> <a href="https://media1.tenor.com/images/b553333fe8b5d4fa276d7b2dc4f7fe23/tenor.gif?itemid=5945155">Fashion-MNIST samples</a> (by Zalando, MIT License).<br/>&nbsp;
-  </td></tr>
-</table>	
-
+![:P](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 
 
