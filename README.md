@@ -5,6 +5,7 @@ Hello world, Here is the comprehensive list of all the information we discussed 
 ## Presenters
 * Jubeen Shah ([Website](www.jubeenshah.com))([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
 * Brandon Johnson ([Website](https://www.koanologies.com))([LinkedIn](https://www.linkedin.com/in/bjohn5on/))
+* Karen McCann ([Website](https://www.meetup.com/AI-Now/))([LinkedIn](https://www.linkedin.com/in/karen-mccann/))
 
 ## Presentation Links
 * [Will Be updated]()
