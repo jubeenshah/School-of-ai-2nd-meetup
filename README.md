@@ -156,7 +156,11 @@ I've set up a series of notebook to get guys familiar with the world of TensorFl
 	* [Declaring Tensors](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/05_DeclaringTensors.ipynb) notebook is aimed towards helping you understand different types of tensors.
 	* [Placeholders and Variables](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/01_Basics/06_PlaceholdersAndVariables.ipynb) notebook is aimed towards making your foundatations strong by helping you understand placeholders and variabels for your data.
 * [Intro to TensorFlow](http://localhost:8888/tree/Desktop/Development/School%20of%20Ai/School-of-ai-2nd-meetup/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow)
-	* 
+	* [Softmax in TensorFlow](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/02_SoftmaxTensorFlow.ipynb)
+	* [Cross Entropy](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/03_CrossEntropy.ipynb)
+	* [MiniBatching](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/04_MiniBatching.ipynb)
+	* [MNIST in TensorFlow](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/Demo/TensorFlow/Practice/02_IntroToTensorFlow/06_WelcomeToTensorflow.ipynb)
+* 
 
 
 
