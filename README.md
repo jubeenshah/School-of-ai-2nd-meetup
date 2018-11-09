@@ -166,7 +166,7 @@ I've set up a series of notebook to get guys familiar with the world of TensorFl
 
 
 
-![:P](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![:P](https://github.com/jubeenshah/School-of-ai-2nd-meetup/blob/master/2ndMeetup-Resources/00-Presentations/Resources/14-tenor.gif)
 
 
 
