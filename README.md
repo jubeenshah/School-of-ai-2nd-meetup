@@ -3,7 +3,7 @@
 Hello world, Here is the comprehensive list of all the information we discussed today in our meetup.
 
 ## Presenters
-* Jubeen Shah ([Website](www.jubeenshah.com))([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
+* Jubeen Shah ([Website](http://www.jubeenshah.com))([LinkedIn](https://www.linkedin.com/in/jubeen-shah/))
 * Brandon Johnson ([Website](https://www.koanologies.com))([LinkedIn](https://www.linkedin.com/in/bjohn5on/))
 * Karen McCann ([Website](https://www.meetup.com/AI-Now/))([LinkedIn](https://www.linkedin.com/in/karen-mccann/))
 
