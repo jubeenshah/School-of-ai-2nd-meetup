@@ -90,7 +90,7 @@ So that doesn't work, but notice if you take the transpose of the `weights` matr
     # array([[-0.01299,  0.00664,  0.13494]])
     
 
-It also works if you take the transpose of `inputs` instead and swap their order, like we showed in the video:
+It also works if you take the transpose of `inputs` instead and swap their order.
 
     np.matmul(weights, inputs.T)
     # displays the following result:

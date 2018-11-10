@@ -21,7 +21,7 @@ Data, like test scores and grades, is fed into a network of interconnected nodes
 
 Let's zoom in even further and look at how a single perceptron processes input data.
 
-The perceptron above is one of the two perceptrons from the video that help determine whether or not a student is accepted to a university. It decides whether a student's grades are high enough to be accepted to the university. You might be wondering: "How does it know whether grades or test scores are more important in making this acceptance decision?" Well, when we initialize a neural network, we don't know what information will be most important in making a decision. It's up to the neural network to _learn for itself_ which data is most important and adjust how it considers that data.
+The perceptron above is one that help determine whether or not a student is accepted to a university. It decides whether a student's grades are high enough to be accepted to the university. You might be wondering: "How does it know whether grades or test scores are more important in making this acceptance decision?" Well, when we initialize a neural network, we don't know what information will be most important in making a decision. It's up to the neural network to _learn for itself_ which data is most important and adjust how it considers that data.
 
 It does this with something called **weights**.
 
@@ -140,6 +140,6 @@ This formula returns 111 if the input (x1,x2,...,xmx\_1, x\_2, ..., x\_mx1​,x2
 
 Then the neural network starts to learn! Initially, the weights ( wiw\_iwi​) and bias (bbb) are assigned a random value, and then they are updated using a learning algorithm like gradient descent. The weights and biases change so that the next training example is more accurately categorized, and patterns in data are "learned" by the neural network.
 
-Now that you have a good understanding of perceptrons, let's put that knowledge to use. In the next section, you'll create the AND perceptron from the _Neural Networks_ video by setting the values for weights and bias.
+Now that you have a good understanding of perceptrons, let's put that knowledge to use. In the next section, you'll create the AND perceptron from the _Neural Networks_ by setting the values for weights and bias.
 
 

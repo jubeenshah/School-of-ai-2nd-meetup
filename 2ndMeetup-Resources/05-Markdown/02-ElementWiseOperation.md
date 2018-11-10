@@ -54,7 +54,6 @@ Let's say you want to get the squared values of a matrix. That's simply `x = m *
 
 This works because it's an element-wise multiplication between two identically-shaped matrices. (In this case, they are shaped the same because they are actually the same object.)
 
-Here's the example from the video:
 
     a = np.array([[1,3],[5,7]])
     a
@@ -74,7 +73,7 @@ Here's the example from the video:
     #             [11, 15]])
     
 
-And if you try working with incompatible shapes, like the other example from the video, you'd get an error:
+
 
     a = np.array([[1,3],[5,7]])
     a
