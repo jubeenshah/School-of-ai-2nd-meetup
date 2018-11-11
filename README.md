@@ -8,7 +8,7 @@ Hello world, Here is the comprehensive list of all the information we discussed 
 * Karen McCann ([Website](https://www.meetup.com/AI-Now/))([LinkedIn](https://www.linkedin.com/in/karen-mccann/))
 
 ## Presentation Links
-* [Will Be updated]()
+* [Presentation](https://github.com/jubeenshah/School-of-ai-2nd-meetup/tree/master/2ndMeetup-Resources/00-Presentations)
 
 
 ## What is [NumPy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html)
